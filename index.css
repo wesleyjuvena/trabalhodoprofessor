@@ -1,14 +1,20 @@
-
+*{
+    margin: 10;
+    margin-top: auto;
+    
+}
 
 body{
     background-color: black;
     color: aliceblue;
+    margin: 0;
 }
 
 header{
-    padding: 60px;
-    margin: 0px;
+    padding: 20px;
     margin-top: auto 0;
+    margin: 0;
+    
 }
 
 nav ul li a{
@@ -16,12 +22,25 @@ nav ul li a{
     text-decoration: none;
     list-style: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 40px;
+    font-size: 20px;
+    
+}
+
+nav ul li a:hover{
+    color: aqua;
+    transition: 0.6s;
 }
 
 nav ul li{
-    margin-left: 20em;
-    list-style-type: none;
+    margin-left: 14em;
+    list-style-type: none;   
+    
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 8em;   
 }
 
 #container-cofre{
@@ -46,23 +65,31 @@ width: 50em
 
 }
 
+
 #container-cofre h1{
-padding: -100px;
-margin-left: 80px;
-font-family: Georgia, 'Times New Roman', Times, serif;
-font-size: 30px;
-margin: 50px;
-color: rgb(8, 8, 8);
+    margin: 50px;
+    font-size: 30px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   margin-left: 1em;    
+   padding: -100px
+   color: rgb(8, 8, 8);
+   }
+   
+#container-cofre p{
+    font-size: 20em;
+    font-size: 20px;
+    margin: 70px;
 }
 
-#container-cofre p{
-    font-size: 20px;
-    margin-left: 30px;
-}
 
 .container img{
     width: 150px;
     height: 90px;
-    margin-left: -50em;
+    margin-left: -67em;
+    border-radius: 100px;
+    
+    
 }
+
+
 
