@@ -1,0 +1,68 @@
+
+
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+header{
+    padding: 60px;
+    margin: 0px;
+    margin-top: auto 0;
+}
+
+nav ul li a{
+    color: chartreuse;
+    text-decoration: none;
+    list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+nav ul li{
+    margin-left: 20em;
+    list-style-type: none;
+}
+
+#container-cofre{
+    background: linear-gradient(180deg,#56877d 8.33%,rgba(2, 75, 47, 0.745)100%),url(Prancheta\ 1.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 15rem;
+}
+
+#container-cofre img{   
+border-radius: 100px;    
+margin: 0;    
+margin-top: 0;
+margin-left: -13em;    
+width: 50em
+
+
+}
+
+#container-cofre h1{
+padding: -100px;
+margin-left: 80px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 30px;
+margin: 50px;
+color: rgb(8, 8, 8);
+}
+
+#container-cofre p{
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.container img{
+    width: 150px;
+    height: 90px;
+    margin-left: -50em;
+}
+
