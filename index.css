@@ -44,7 +44,7 @@ nav ul{
 }
 
 #sobremessa{
-    background: linear-gradient(180deg,#56877d 8.33%,rgba(2, 75, 47, 0.745)100%),url(Prancheta\ 1.jpg);
+    background: linear-gradient(180deg,#56877d 8.33%,rgba(2, 75, 47, 0.745)100%),url(imagem_background2.jpg);
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -98,6 +98,27 @@ width: 50em
     padding: 20px;
 }
 
+.section{
+    display: flex;
+    max-width: 1100px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.section img{
+max-width: 200px;
+display: block;
+}
+
+.section div{
+    margin: 80px;
+    flex: 1 1 200px;
+}
+
 footer{
     padding: 10px;
     margin: 0;
@@ -120,6 +141,12 @@ footer i{
     
 }
 
+h2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    color: #00f27e;
+}
 
 
 
