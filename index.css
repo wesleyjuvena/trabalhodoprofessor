@@ -5,10 +5,11 @@
 }
 
 body{
-    background-color: #5fc953;
+    background-color: #0d0e0d;
     color: #ffffff;
     margin: 0;
-    background: linear-gradient(180deg,#11d131 8.33%, #caaf2b);
+    background: linear-gradient(180deg,#0f0f0f 8.33%, #caaf2b);
+    
 }
 
 header{
@@ -19,7 +20,7 @@ header{
 }
 
 nav ul li a{
-    color: #0a30ec;
+    color: #eff1f7;
     text-decoration: none;
     list-style: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -28,7 +29,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color: #0892b0;
+    color: #df081a;
     transition: 0.6s;
 }
 
@@ -45,7 +46,7 @@ nav ul{
 }
 
 #sobremessa{
-    background: linear-gradient(180deg,#56877d 8.33%,rgba(2, 75, 47, 0.745)100%),url(imagem_background2.jpg);
+    background: linear-gradient(180deg,#1cd81c 8.33%,rgba(23, 224, 39, 0.745)100%),url(Prancheta\ 1.jpg);
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -61,7 +62,7 @@ border-radius: 100px;
 margin: 0;    
 margin-top: 0;
 margin-left: -13em;    
-width: 50em
+width: 44em
 
 
 }
@@ -128,6 +129,11 @@ display: block;
     font-size: 25px;
 }
 
+.leticia img{
+    width: 93em;
+    height: 40em;
+}
+
 .line{
     
     margin: 40 auto;
@@ -150,7 +156,7 @@ footer i{
 }
 
 .rodape-i{
-    color: #11d131;
+    color: #0e24e2;
     font-size: 20px;
     padding: 30px;
     margin-left: 21em;
