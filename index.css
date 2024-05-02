@@ -8,19 +8,20 @@ body{
     background-color: #0d0e0d;
     color: #ffffff;
     margin: 0;
-    background: linear-gradient(180deg,#0f0f0f 8.33%, #caaf2b);
+    background-color: rgb(29, 28, 28); 
     
 }
 
 header{
-    padding: 20px;
+    padding: 60px;
     margin-top: auto 0;
     margin: 0;
+    
     
 }
 
 nav ul li a{
-    color: #eff1f7;
+    color: #bade57;
     text-decoration: none;
     list-style: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -29,12 +30,12 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color: #df081a;
+    color: #8ccc81;
     transition: 0.6s;
 }
 
 nav ul li{
-    margin-left: 14em;
+    margin-left: 5em;
     list-style-type: none;   
     
 }
@@ -42,11 +43,12 @@ nav ul li{
 nav ul{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 8em;   
+    margin-left: 49em;   
+    
 }
 
-#sobremessa{
-    background: linear-gradient(180deg,#1cd81c 8.33%,rgba(23, 224, 39, 0.745)100%),url(Prancheta\ 1.jpg);
+#sobremessa{  
+    background: linear-gradient(180deg, rgba(160,209,54,1) 8.33%, rgba(47,47,47,0.745)100%),url(Prancheta\ 1.jpg);
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -108,7 +110,7 @@ width: 44em
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
-    background: linear-gradient(180deg,#11d131 8.33%, #caaf2b);
+    background: linear-gradient(0deg, rgba(167,209,54,1) 0%, rgba(47,47,47,1) 100%);
     
 }
 
@@ -153,10 +155,11 @@ footer i{
     font-size: 50px;
     
     
+    
 }
 
 .rodape-i{
-    color: #0e24e2;
+    color: white;
     font-size: 20px;
     padding: 30px;
     margin-left: 21em;
@@ -170,6 +173,40 @@ h2{
     font-size: 40px;
     color: #a91295;
     
+}
+
+
+@media screen and(max-width:480px) {
+
+
+
+}
+
+@media screen and(max-width:767px) {
+
+}
+
+@media screen and(max-width:1920px) {
+
+}
+
+@media screen and(max-width:1366px)  {
+
+}
+
+@media screen and(max-width:991px )  {                                                                                            
+
+header{
+    padding: 1vh;
+    margin: top 0;
+    margin-left: 40em;
+    
+}    
+
+
+
+
+
 }
 
 
